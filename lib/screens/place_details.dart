@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class PlaceDetails extends StatelessWidget {
   final Place place;
 
-  const PlaceDetails({required this.place});
+  const PlaceDetails({super.key, required this.place});
 
   @override
   Widget build(BuildContext context) {
