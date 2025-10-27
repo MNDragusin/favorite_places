@@ -11,7 +11,17 @@ class PlaceDetails extends StatelessWidget {
     // Implementation of the PlaceDetails screen
     return Scaffold(
       appBar: AppBar(title: Text(place.title)),
-      body: Center(child: Text('Details for place ID: ${place.id}')),
+      body: Stack(
+        children: [
+          Image.file(
+            place.image,
+            width: double.infinity,
+            height: double.infinity,
+            fit: BoxFit.cover,
+          ),
+          // Additional details can be added here
+        ],
+      ),
     );
   }
 }

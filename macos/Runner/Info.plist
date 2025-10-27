@@ -30,5 +30,9 @@
 	<string>NSApplication</string>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>This app requires access to the local network to communicate with nearby devices.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires access to location to work.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app requires access to location to work.</string>
 </dict>
 </plist>
